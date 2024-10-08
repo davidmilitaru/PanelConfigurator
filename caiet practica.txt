@@ -1,0 +1,17 @@
+S1-S2 : Analiză de date
+ - Utilizarea unei baze de date pentru extragerea de informații cu privire la consumul de energie electrică al unei locuințe și radiația solară înregistrată în zona locuinței; 
+ - Reprezentarea grafică a consumului (mediu) la interval orar pe durată de un an, o lună, o săptămână, o zi; 
+ - Dimensionarea unei configurații de sistem fotovoltaic și reprezentarea grafică a producției de energie electrică pe aceleași intervale.
+
+S3 : Implementare
+ - Calcularea și analiza indicatorilor tehnici ai sistemului fotovoltaic: autosuficiența, autoconsumul, energia netă interschimbată cu rețeaua și evoluția valorii nete actuale a investiției.
+
+S4-S5 : Implementare
+ - Crearea unui program de optimizare a dimensiunii unui sistem de panouri fotovoltaice pentru mai multe tipuri de panouri, în funcție de un singur criteriu (funcția obiectiv fiind evoluția valorii nete actuale a investiției).
+
+S6 : Implementare
+ - Adăugarea de constrângeri în programul de optimizare, cu privire la autosuficiența minimă și suprafața maximă utilă pentru instalarea sistemului de panouri fotovoltaice;
+ - Vizualizarea grafică a performanțelor configurației optime obținute.
+
+S7-S8 : Implementare
+ - Realizarea unei platforme web de interacțiune cu utilizatorul
