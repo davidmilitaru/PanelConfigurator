@@ -46,7 +46,7 @@ The project follows an end-to-end data processing workflow:
 
 ## Engineering Highlights
 
-The project demonstrates several software engineering and data processing concepts:
+Key data processing techniques have been employed, within the OOP programming paradigm. From an engineering point of view, the workflow consists of the following main concepts:
 
 - **Object-oriented programming:** Encapsulation of household, consumption, production, and database-related functionality into dedicated classes.
 - **Database integration:** Importing an existing dataset into SQLite and retrieving relevant records through parameterized SQL queries.
@@ -61,29 +61,5 @@ The project demonstrates several software engineering and data processing concep
 | `main.py` | Main application, optimization logic, financial evaluation, and Streamlit interface |
 | `analysis_module.py` | Energy analysis, supporting classes, and visualizations |
 
-## Installation and Usage
-
-Clone the repository:
-
-```bash
-git clone https://github.com/davidmilitaru/PanelConfigurator.git
-cd PanelConfigurator
-```
-
-Install the required dependencies:
-
-```bash
-pip install numpy scipy matplotlib streamlit
-```
-
-Make sure the local SQLite database (`irise.sqlite3`) is available in the expected project location. The database is not included in the repository.
-
-Run the application:
-
-```bash
-streamlit run main.py
-```
-
----
 
 *Developed as part of a mandatory summer practical training programme during the third year of the Bachelor's degree in Computer Science at the Faculty of Automatic Control and Computer Science.*
